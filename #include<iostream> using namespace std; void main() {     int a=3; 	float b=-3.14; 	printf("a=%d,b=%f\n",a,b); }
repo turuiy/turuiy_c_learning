@@ -1,16 +1,17 @@
 // 你这个文件名是怎么回事！？  --comment by hatlonely
 // 这里可以注释一下，简单介绍一下你这个文件  --comment by hatlonely
-
+// 这是一个关于两种字符表达的程序
 // include后面与<之间要有一个空格  --comment by hatlonely
-#include<iostream>
+#include <iostream>
 using namespace std;
 // 这里加个空行  --comment by hatlonely
+
 void main()
-// 这个大括号写在上一行  --comment by hatlonely
 {
     // 等号左右都应该有一个空格 --comment by hatlonely
-    int a=3;
-    float b=-3.14;
+    int a = 3;
+    float b = -3.14;
     // 既然是c++程序就不要用printf输出，用cout  --comment by hatlonely
-    printf("a=%d,b=%f\n",a,b);
+    cout<<"a = "<<a<<endl;
+	cout<<"b = "<<b<<endl;
 }
