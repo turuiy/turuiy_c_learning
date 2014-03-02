@@ -1,18 +1,25 @@
-// 你这个文件名是怎么回事！？  --comment by hatlonely
 // 文件名我当时也不知道怎么弄的
-// 这里可以注释一下，简单介绍一下你这个文件  --comment by hatlonely
 // 这是一个关于两种字符表达的程序
-// include后面与<之间要有一个空格  --comment by hatlonely
+
+// 你改完了就把我的注释删了吧，好难看……
+// 文件注释像这样的
+// @file filename.cpp
+// @brief 简短的描述一下这个文件的功能
+// @author 你的名字
+// @email 你的邮箱
+// @date 2014-3-2
+
 #include <iostream>
 using namespace std;
-// 这里加个空行  --comment by hatlonely
 
+// 别用void，用int，最后返回0，养成好习惯
 void main()
+// 这个大括号放到上面去啊！！！
 {
-    // 等号左右都应该有一个空格 --comment by hatlonely
     int a = 3;
     float b = -3.14;
-    // 既然是c++程序就不要用printf输出，用cout  --comment by hatlonely
     cout<<"a = "<<a<<endl;
+    // 用4个空格代替制表符
+    // <<属于双目运算符，和=号一样，前后都应加入空格
 	cout<<"b = "<<b<<endl;
 }
