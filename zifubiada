@@ -1,10 +1,16 @@
+// 文件的描述呢，不是说所有的注释都删了啊!
+// 这里需要注释来简单说明的这个文件
+// 具体这里的注释怎么写，看上一个版本，找一找，每个版本都会保存的
 #include <iostream>
 using namespace std;
+// 这里的空行呢！？
+// 把下面两行合并成这样 int main() {
 int main()
 {
     int a = 3;
     float b = -3.14;
     cout << "a = " << a << endl;
     cout << "b = " << b << endl;
+    // 这是什么？
     turn 0;
 }
